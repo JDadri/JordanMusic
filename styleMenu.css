@@ -1,0 +1,52 @@
+.menuContent {
+    position: relative;
+    bottom: 575px;
+    height: 70px;
+    width: 110px;
+    right: 10px;
+    transition: .7s;
+    
+}
+.menuList{
+    bottom: 870px;
+    left: 40px;
+    position: absolute;
+    transition: .7s;
+    opacity: 0;
+    z-index: -1;
+}
+.menuContent:focus{
+    transition: .7s;
+    transform: translateX(-20px);
+}
+.menuContent:focus + .menuList{
+    opacity: 1;
+    transition: 2s;
+    display: inline-block;
+    z-index: 1;
+}
+.menuThings{
+    list-style: none;
+    top: -10px;
+    position: relative;
+    left: 10px;
+}
+.discordMenu {
+    height: 20px;
+    width: 25px;
+    top: 3px;
+    position: relative;
+    text-decoration: none;
+}
+.liMusica{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.liDiscord{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.liPrompt{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}

@@ -1,0 +1,24 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    background-color: rgb(121, 120, 120);
+    user-select: none;
+}
+.text {
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 100px;
+    text-align: center;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px;
+    justify-items: center;
+    margin-top: 200px;
+    /* para ponerlos debo de ponerle al img class="el nombre" */
+}
+.jordaneta{
+    max-width: 100%;
+}

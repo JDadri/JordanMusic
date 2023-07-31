@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sugerencias</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styleSuggest.css">
+    <script src="SuggestCode.js"></script>
+</head>
+<body>
+    <p class="Pw"><b><u><i>Diganos tu idea y te la responderemos:</i></u></b></p>
+    <form action="https://formsubmit.co/jordanmikegod@gmail.com" method="post">
+        <input class="Name" name="Nombre" type= "text" placeholder="Nombre" required><br>
+        <input class="Email" name="Correo" type="email" placeholder="Tu Correo" required><br>
+        <input class="Reason" name="Razón" type="text" placeholder="Asunto" required><br>
+        <textarea class="Desc" name="Descripción" placeholder="Descripción" required rows="4" style="resize: none;" aria-required="true"></textarea><br>
+        <input class="Press" type="submit" value="Enviar" onclick="OpenFile()" >
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="http://127.0.0.1:5500/RedirectMenu/suggestThanks.html">
+    </form>
+    <img class="photo" src="../Photos/formSuggest.jpg" alt="">
+</body>
+</html>

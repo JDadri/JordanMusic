@@ -1,0 +1,120 @@
+@media screen and (max-width: 500px) {
+    .footer {
+        grid-template-columns: 1fr;
+    }
+}
+@media screen and (min-width: 1653px) {
+    .header__p {
+        font-size: 80px;
+    }
+}
+@media screen and (min-width: 1145px) {
+    .header__p {
+        word-spacing: 10px;
+    }
+}
+@media screen and (min-width: 1045px) {
+    .header__p {
+        letter-spacing: 5px;
+    }
+}
+@media screen and (max-width: 874px) {
+    .header__p {
+        font-size: 40px;
+    }
+}   
+@media screen and (max-width: 766px) {
+    .header__p {
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:600px) {
+    .header__p {
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 674px) {
+    .header__p {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 670px) {
+    .TiK {
+        left: 400px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .YoT {
+        right: 1000px;
+    }
+}
+
+@media screen and (min-width: 1371px) {
+    .YoT {
+        width: 400px;
+        height: 230px;
+    }
+}
+@media screen and (min-width: 1371px) {
+    .TiK {
+        width: 400px;
+        height: 230px;
+        top: 136px;
+    }
+}
+@media screen and (min-width: 1653px) {
+    .p__follow {
+        font-size: 80px;
+    }
+}
+@media screen and (min-width: 1653px) {
+    .menuContent {
+        height: 100px;
+        width: 200px;
+        bottom: 660px;
+        right: 30px;
+    }
+}
+@media screen and (min-width: 1653px) {
+    .liDiscord {
+        font-size: 30px;
+        left: 75px;
+        bottom: 20px;
+        position: relative;
+    }
+}
+@media screen and (min-width: 1653px) {
+    .liMusica {
+        font-size: 30px;
+        left: 75px;
+        top: 6px;
+        position: absolute;
+    }
+}
+@media screen and (min-width: 1653px) {
+    .liPrompt {
+        font-size: 30px;
+        left: 75px;
+        position: absolute;
+    }
+}
+@media screen and (min-width: 1653px) {
+    .profile__img {
+        height: 270px;
+        width: 270px;
+        bottom: 47px;
+        position: relative;
+        border-color: 0px 0px 0px 100px rgb(0, 0, 0);
+    }
+}
+@media screen and (min-width: 1653px) {
+    .footBottom {
+        font-size: 25px;
+    }
+}
+@media screen and (min-width: 1653px) {
+    .column {
+        font-size: 30px;
+    }
+}
+
