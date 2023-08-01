@@ -118,9 +118,90 @@
     }
 }
 /*Mobile Responsive Design*/
+@media screen and (max-width: 540px) {
+    .box {
+        width: 580px;
+    }
+    .header__p {
+        font-size: 32px;
+    }
+    .menuThings {
+        top: 65px;
+        position: relative;
+    }
+    .TextDesc {
+        
+    }
+    .channelDesc {
+        
+    }
+    .boxFollow {
+        min-width: 5px;
+        position: relative;
+    }
+    .footer {
+        min-width: 540px;
+    }
+    .footBottom {
+        min-width: 580px;
+    }
+}
+@media screen and (max-width: 414px) {
+    .profile__img {
+        left: 80px;
+        position: relative;
+    }
+    .box {
+        width: 580px;
+    }
+    .header__p {
+        font-size: 32px;
+        left: 60px;
+    }
+    .menuThings {
+        top: 40px;
+        position: relative;
+    }
+    .TextDesc {
+        letter-spacing: 10px;
+    }
+    .channelDesc {
+        min-width: 570px;
+    }
+    .boxFollow {
+        min-width: 580px;
+        position: relative;
+    }
+    .footer {
+        min-width: 540px;
+    }
+    .footBottom {
+        min-width: 580px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .menuThings {
+        top: 65px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .menuThings {
+        top: 80px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .menuThings {
+        top: 65px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .menuThings {
+        top: 65px;
+    }
+}
 @media screen and (max-width: 375px) {
     .profile__img {
-        left: 70px;
+        left: 80px;
         position: relative;
     }
     .box {
@@ -132,7 +213,7 @@
         left: 100px;
     }
     .menuThings {
-        top: 270px;
+        top: 65px;
     }
     .TextDesc {
         font-size: 50px;
@@ -151,3 +232,4 @@
         min-width: 580px;
     }
 }
+/*optimizacion centrada(mas que nada al menuContent)*/

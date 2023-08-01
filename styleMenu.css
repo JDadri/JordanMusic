@@ -27,9 +27,9 @@
 }
 .menuThings{
     list-style: none;
-    top: -10px;
-    position: relative;
+    bottom: 0px;
     left: 10px;
+    position: relative;
 }
 .discordMenu {
     height: 20px;

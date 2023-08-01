@@ -11,7 +11,6 @@
   youtubeLink.addEventListener('mouseout', () => {
     youtubeLink.classList.remove('hoverEffect');
   });
-
   tiktokLink.addEventListener('mouseover', () => {
     tiktokLink.classList.add('hoverEffect');
   });
