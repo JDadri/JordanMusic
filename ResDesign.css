@@ -117,4 +117,37 @@
         font-size: 30px;
     }
 }
-
+/*Mobile Responsive Design*/
+@media screen and (max-width: 375px) {
+    .profile__img {
+        left: 70px;
+        position: relative;
+    }
+    .box {
+        width: 680px;
+        right: 100px;
+    }
+    .header__p {
+        font-size: 30px;
+        left: 100px;
+    }
+    .menuThings {
+        top: 270px;
+    }
+    .TextDesc {
+        font-size: 50px;
+        letter-spacing: 18px;
+    }
+    .channelDesc {
+        min-width: 550px;
+    }
+    .boxFollow {
+        min-width: 580px;
+    }
+    .footer {
+        min-width: 540px;
+    }
+    .footBottom {
+        min-width: 580px;
+    }
+}

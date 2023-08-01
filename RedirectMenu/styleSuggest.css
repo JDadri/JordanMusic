@@ -77,3 +77,14 @@ form{
         left: 40%;
     }
 }
+@media screen and (max-width: 375px) {
+    .Name {
+      width: 50%; /* Cambiamos el ancho del formulario para que ocupe la mitad de la pantalla */
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); /* Centramos vertical y horizontalmente el formulario */
+    }
+    .photo {
+      transform: scale(2);
+    }
+  }

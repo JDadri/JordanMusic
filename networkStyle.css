@@ -14,7 +14,6 @@
     transition: 1s;
     display: flex;
   }
-  
 .TiK {
     height: 180px;
     width: 180px;
@@ -23,10 +22,10 @@
     right: 50px; 
     bottom: 83px;
     transition: 1s;
-    display: flex;
     align-items: center;
     margin-right: 100px;
     z-index: 1;
+    max-width: -100px;
   }
   .boxFollow {
     height: 400px;
